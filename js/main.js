@@ -1,4 +1,4 @@
-fetch("../data/data.json").then(response=>{
+fetch("https://github.com/renukadevibolla/ecommerce.git").then(response=>{
 return response.json()
 }).then(data=>{
     console.log(data)
